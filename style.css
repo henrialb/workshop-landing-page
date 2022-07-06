@@ -5,8 +5,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: rgb(50, 50, 50);
-  /* color: #323232; */
+  color: rgb(50, 50, 50); /* o mesmo que color: #323232; */
 }
 
 p {
@@ -44,6 +43,7 @@ p {
   margin-top: 52px;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .botao:hover {
